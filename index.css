@@ -31,7 +31,7 @@ h2{
     font-size: 2rem;
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 p{
@@ -183,5 +183,192 @@ header {
     text-align: center;
     margin-block: 30px;
     color:var(--primary-text-color);
+}
+
+
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    height: 46px;
+}
+
+
+/* features section */
+
+.features-section{
+    padding: 80px var(--padding-inline-section) 30px;
+    background-image: url('/assets/bc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-block: 30px;
+}
+
+.features-header{
+    text-align: center;
+}
+
+
+.features-header-text{
+    margin-bottom: 20px;
+}
+
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.features-card img{
+    width: 70px;
+    border-radius: 9px;
+}
+
+
+
+/* big-feature-section */
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-desc{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+/* examples section */
+
+.example-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.example-header{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.example-area {
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+.example-card{
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/1st.jpg');
+    background-size: cover;
+    transition: 0.2s ease-out;
+}
+
+.example-card:hover{
+    box-shadow: 0 0 15px #888;
+}
+
+.example-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/2nd.jpg');
+    background-size: cover;
+}
+.example-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/3rd.png');
+    background-size: cover;
+}
+.example-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/4th.jpg');
+    background-size: cover;
+}
+
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+    left: 20px;
+    color: white;
+}
+
+
+
+/*  cta section  */
+
+
+.cta-section{
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color: #183b54;
+}
+
+
+.cta-section-container{
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+
+.cta-section-container p{
+    margin-top: 35px;
+    color: white;
+}
+
+
+/* footer section */
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.footer-section{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* sub footer section */
+
+.sub-footer{
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+
+.sub-footer-container{
+    justify-content: center;
+    
+    gap: 30px;
+}
+
+.sub-footer-container a{
+    color: white;
 }
 
