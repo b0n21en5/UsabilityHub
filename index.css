@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
 *{
     margin: 0;
@@ -81,10 +81,11 @@ ul{
 
 .primary-button{
     background-color: var(--accent-color);
-    border-radius: 6px;    
-    font-weight: 700;
+    border-radius: 4px;    
+    font-weight: 400;
+    font-family: 'Averta PE', sans-serif;
     color: white !important;
-    padding: 12px 24px;
+    padding: 18px 36px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
 }
@@ -375,6 +376,6 @@ footer{
 }
 
 .sub-footer-container a{
-    color: white;
+    color: #183b56;
 }
 
