@@ -112,7 +112,7 @@ ul{
 /* top-banner */
 
 .top-banner{
-    background-image: url('/assets/29.jpg');
+    background-image: url('assets/29.jpg');
     background-color: #4fb3d4;
 }
 
@@ -201,7 +201,7 @@ header {
 
 .features-section{
     padding: 80px var(--padding-inline-section) 30px;
-    background-image: url('/assets/bc.jpg');
+    background-image: url('assets/bc.jpg');
     background-repeat: no-repeat;
     background-position: center;
     margin-block: 30px;
@@ -274,7 +274,7 @@ header {
 .example-area {
     justify-content: space-between;
     margin-block: 20px;
-    
+
 }
 
 .example-card{
@@ -282,7 +282,7 @@ header {
     min-height: 300px;
     position: relative;
     background: black;
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/1st.jpg');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/1st.jpg');
     background-size: cover;
     transition: 0.2s ease-out;
 }
@@ -292,15 +292,15 @@ header {
 }
 
 .example-card:nth-child(2){
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/2nd.jpg');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/2nd.jpg');
     background-size: cover;
 }
 .example-card:nth-child(3){
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/3rd.png');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/3rd.png');
     background-size: cover;
 }
 .example-card:nth-child(4){
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('/assets/ex-img/4th.jpg');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/4th.jpg');
     background-size: cover;
 }
 
