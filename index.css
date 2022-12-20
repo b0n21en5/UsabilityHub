@@ -112,8 +112,9 @@ ul{
 /* top-banner */
 
 .top-banner{
-    background-image: url('assets/29.jpg');
-    background-color: #4fb3d4;
+    background-image: url('assets/asset 32.png');
+    background-color: #e74694;
+    background-size: 300px;
 }
 
 .banner-text{
@@ -132,7 +133,7 @@ ul{
 
 
 .company-logo img{
-    width: 100px;
+    width: 200px;
 }
 
 .nav-links{
@@ -201,7 +202,7 @@ header {
 
 .features-section{
     padding: 80px var(--padding-inline-section) 30px;
-    background-image: url('assets/bc.jpg');
+    background-image: url('assets/asset 34.svg');
     background-repeat: no-repeat;
     background-position: center;
     margin-block: 30px;
@@ -258,6 +259,10 @@ header {
     align-items: flex-start;
 }
 
+.feature-desc img{
+    width: 120px;
+}
+
 
 
 /* examples section */
@@ -282,7 +287,7 @@ header {
     min-height: 300px;
     position: relative;
     background: black;
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/1st.jpg');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset 36.jpeg');
     background-size: cover;
     transition: 0.2s ease-out;
 }
@@ -292,15 +297,15 @@ header {
 }
 
 .example-card:nth-child(2){
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/2nd.jpg');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset 37.jpeg');
     background-size: cover;
 }
 .example-card:nth-child(3){
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/3rd.png');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset 38.jpeg');
     background-size: cover;
 }
 .example-card:nth-child(4){
-    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/ex-img/4th.jpg');
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset 39.jpeg');
     background-size: cover;
 }
 
