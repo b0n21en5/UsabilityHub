@@ -62,6 +62,7 @@ ul{
     padding-inline: var(--padding-inline-section);
     max-width: 1180px;
     margin-inline: auto;
+    overflow: hidden;
 }
 
 .flex{
@@ -88,6 +89,7 @@ ul{
     padding: 18px 36px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    text-align: center;
 }
 
 .primary-button:hover{
@@ -122,6 +124,7 @@ ul{
     color: white;
     padding: 15px 30px;
     text-align: center;
+    font-size: 13px;
 }
 
 
@@ -130,6 +133,7 @@ ul{
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    position: relative;
 }
 
 
@@ -144,6 +148,10 @@ ul{
 .nav-links ul{
     justify-content: end;
     gap: 40px;
+}
+
+.nav-toggle{
+    display: none;
 }
 
 
@@ -175,7 +183,7 @@ header {
 
 
 .header-right img{
-    width: 600px;
+    width: 100%;
 }
 
 
@@ -189,8 +197,9 @@ header {
 
 
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 
@@ -211,6 +220,7 @@ header {
 
 .features-header{
     text-align: center;
+    margin-bottom: 20px;
 }
 
 
@@ -221,7 +231,7 @@ header {
 .features-area{
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
     margin-top: 20px;
 }
 
@@ -251,6 +261,10 @@ header {
     gap: 30px;
 }
 
+#second-big-feature{
+    flex-direction: row-reverse;
+}
+
 .feature-image img{
     width: 100%;
 }
@@ -269,23 +283,24 @@ header {
 /* examples section */
 
 .example-section{
-    padding: 30px var(--padding-inline-section) 0;
+    padding: 80px var(--padding-inline-section) 0;
 }
 
 .example-header{
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 
 .example-area {
     justify-content: space-between;
     margin-block: 20px;
-
+    flex-wrap: wrap;
 }
 
 .example-card{
     width: 23%;
-    min-height: 300px;
+    height: 300px;
     position: relative;
     background: black;
     background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url('assets/asset 36.jpeg');
@@ -327,6 +342,7 @@ header {
 .cta-section{
     padding: 120px var(--padding-inline-section) 80px;
     background-color: #183b54;
+    text-align: center;
 }
 
 
@@ -358,6 +374,7 @@ footer{
 .link-column{
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
 }
 
 
@@ -371,7 +388,7 @@ footer{
 
 .sub-footer-container{
     justify-content: center;
-    
+    flex-wrap: wrap;
     gap: 30px;
 }
 

@@ -7,6 +7,7 @@
     <link rel="icon" href="favicon.ico">
     <title>UsabilityHub | User Reasearch & Usability Testing Platform</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media-queries.css">
     <link rel="shortcut icon" href="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b2c9171e2934a9ba9598fbf_huber_favicon.png">
 </head>
 <body>
@@ -14,7 +15,7 @@
     <!-- top banner -->
     <div class="top-banner">
         <div class="container">
-            <div class="small-bold-text banner-text">📣 Figma prototype testing just got a whole lot better! Read more →</div>
+            <div class="banner-text">📣 Figma prototype testing just got a whole lot better! Read more →</div>
 
         </div>
     </div>
@@ -26,15 +27,18 @@
             <a href="" class="company-logo">
                 <img src="assets/asset 1.png" alt="logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class="flex">
-                    <li><a href="#"  class="hover-link">Products</a></li>
-                    <li><a href="#"  class="hover-link">Customer</a></li>
-                    <li><a href="#"  class="hover-link">Resources</a></li>
+                    <li><a href="#"  class="hover-link">Product</a></li>
+                    <li><a href="#"  class="hover-link">Customers</a></li>
                     <li><a href="#"  class="hover-link">Pricing</a></li>
+                    <li><a href="#"  class="hover-link">Resources</a></li>
                     <li><a href="#"  class="hover-link secondary-button">Sign in</a></li>
                     <li><a href="#"  class="hover-link primary-button">Sign up</a></li>
                 </ul>
+            </div>
+            <div class="nav-toggle hover-link" id="toggle">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
     </nav>
@@ -138,7 +142,7 @@
     </section>
     
     <section class="big-feature-section">
-        <div class="container flex big-feature-container" style="flex-direction: row-reverse;">
+        <div class="container flex big-feature-container" id="second-big-feature">
             <div class="feature-image">
                 <img src="assets/asset 21.png" alt="feature image">
             </div>
@@ -250,6 +254,13 @@
     </div>
 
     <script src="https://kit.fontawesome.com/83f6c402d4.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('toggle');
+        const toggleLinks = document.getElementById('nav-links');
+        toggleButton.addEventListener('click', () =>{
+            toggleLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
 </html>
